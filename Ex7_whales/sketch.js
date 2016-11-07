@@ -7,8 +7,12 @@ var intro;
 ///takes a while to load images
 function preload() {
   wmap = loadImage("data/map.jpg");
-  clip = loadImage("data/clip.png")
-  grey = loadImage("data/grey.jpg");
+  clip = loadImage("data/clip.png");
+  picgrey = loadImage("data/grey.jpg");
+  picblue = loadImage("data/blue.jpg");
+  picnorth = loadImage("data/norhtern_right.jpg");
+  picsouth = loadImage("data/southern_right.jpg");
+  pichump = loadImage("data/humpback.jpg");
   titlef = loadFont('data/font1.ttf');
   bodyf = loadFont('data/font2.ttf');
 

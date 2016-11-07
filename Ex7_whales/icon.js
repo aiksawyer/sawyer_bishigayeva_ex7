@@ -37,7 +37,7 @@ var Icon = function(x, y, r) {
         text(title, 40 + margin, 300, 300, 300);
         textFont(bodyf, 15);
         text(body1, 40 + margin, 300 + margin / 2, 250, 300); // Text wraps within text box
-        image(grey, 300 + margin, 300 + margin / 2, grey.width / 2, grey.height / 2); //grey whale    
+        image(picgrey, 300 + margin, 300 + margin / 2, picgrey.width / 2, picgrey.height / 2); //grey whale    
 
         pop();
 
@@ -57,13 +57,13 @@ var Icon = function(x, y, r) {
         console.log("got here3")
         strokeWeight(0);
         title = "Blue Whale";
-        body1 = "Most blues are migratory and travel thousands of kilometres annually between their winter breeding grounds in warmer, low latitude waters around the tropics, where they mate and give birth, and their summer feeding grounds in the cooler, high latitude waters of either the Arctic and Antarctic, where they feed for 3-4 months on the rich supply of krill and other food which occur in huge numbers in polar waters."
+        body1 = "Most blues are migratory and travel thousands of kilometres annually between their winter breeding grounds in warmer, low latitude waters around the tropics, where they mate and give birth, and their summer feeding grounds in the cooler, high latitude waters of either the Arctic and Antarctic, where they feed for 3-4 months on the rich supply of krill and other food which occur in huge numbers in polar waters.\nLegend: \n     Winter. \n     Summer"
         fill(0);
         textFont(titlef, 36);
         text(title, 520 + margin, 550, 550, 550);
         textFont(bodyf, 15);
         text(body1, 520 + margin, 550 + margin / 2, 250, 300); // Text wraps within text box
-        ///image(grey, 300 + margin, 300 + margin / 2, grey.width / 2, grey.height / 2); //grey whale    
+        image(picblue, 800 + margin, 520 + margin / 2, picblue.width / 3, picblue.height / 2); //blue whale pic
 
         pop();
       }
@@ -81,14 +81,13 @@ var Icon = function(x, y, r) {
         console.log("got here3")
         strokeWeight(0);
         title = "Humpback whale";
-        body1 = "Most humpback whales make mammoth journeys every year between their feeding and breeding sites. Because seasons are reversed either side of the equator, Northern and Southern Hemisphere populations of humpbacks probably never meet; those in the north travel towards their breeding grounds in tropical waters as those in the south are travelling towards the pole to feed, and vice versa."
+        body1 = "Most humpback whales make mammoth journeys every year between their feeding and breeding sites. Because seasons are reversed either side of the equator, Northern and Southern Hemisphere populations of humpbacks probably never meet; those in the north travel towards their breeding grounds in tropical waters as those in the south are travelling towards the pole to feed, and vice versa.\nLegend: \n     Winter. \n     Summer"
         fill(0);
         textFont(titlef, 36);
-        text(title, 250 + margin, 400, 550, 550);
+        text(title, 220 + margin, 400, 550, 550);
         textFont(bodyf, 15);
-        text(body1, 250 + margin, 400 + margin / 2, 350, 400); // Text wraps within text box
-        ///image(grey, 300 + margin, 300 + margin / 2, grey.width / 2, grey.height / 2); //grey whale    
-
+        text(body1, 220 + margin, 400 + margin / 2, 350, 400); // Text wraps within text box
+        image(pichump, 550 + margin, 380 + margin / 2, pichump.width / 3, pichump.height / 3);
         pop();
       }
     }
@@ -102,17 +101,17 @@ var Icon = function(x, y, r) {
         translate(0, -300);
         strokeWeight(0);
         fill(255, 50);
-        rect(325 + margin, 400, 700, 600, 45);
+        rect(325 + margin, 400, 700, 400, 45);
         console.log("got here3")
         strokeWeight(0);
         title = "Northern Right whale";
-        body1 = "They are not known to travel the huge distances that species such as humpbacks and grays do. Nonetheless, some make annual migrations between winter breeding and calving grounds in warmer southern waters, and summer feeding grounds in cooler waters.";
+        body1 = "They are not known to travel the huge distances that species such as humpbacks and grays do. Nonetheless, some make annual migrations between winter breeding and calving grounds in warmer southern waters, and summer feeding grounds in cooler waters. \nLegend: \n     Winter. \n     Summer";
         fill(0);
         textFont(titlef, 36);
         text(title, 350 + margin, 400, 550, 550);
         textFont(bodyf, 15);
         text(body1, 350 + margin, 400 + margin / 2, 350, 300); // Text wraps within text box
-        ///image(grey, 300 + margin, 300 + margin / 2, grey.width / 2, grey.height / 2); //grey whale    
+        image(picnorth, 750 + margin, 350 + margin / 2, picnorth.width / 2, picnorth.height / 2); //north whale pic 
 
         pop();
       }
@@ -127,18 +126,18 @@ var Icon = function(x, y, r) {
         translate(0, -300);
         strokeWeight(0);
         fill(255, 50);
-        rect(500 + margin, 350, 600, 550, 45);
+        rect(500 + margin, 450, 600, 300, 45);
         console.log("got here3")
-        strokeWeight(1);
+        strokeWeight(0);
         title = "Southern Right Whale";
-        body1 = "During the winter and spring, they are found in their coastal mating and calving grounds. These lie mainly along the southern coasts of Africa (Hermanus, South Africa is a particularly good place to see them), South America (around Chile & Argentina - Peninsula Valdes is a well-known habitat) and in the Great Australian Bight, as well as along the western coast of New Zealand.";
+        body1 = "During the winter and spring, they are found in their coastal mating and calving grounds. These lie mainly along the southern coasts of Africa (Hermanus, South Africa is a particularly good place to see them), South America (around Chile & Argentina - Peninsula Valdes is a well-known habitat) and in the Great Australian Bight, as well as along the western coast of New Zealand.\nLegend: \n     Winter. \n     Summer";
 
         fill(0);
         textFont(titlef, 36);
-        text(title, 520 + margin, 350, 550, 550);
+        text(title, 520 + margin, 450, 550, 550);
         textFont(bodyf, 15);
-        text(body1, 520 + margin, 350 + margin / 2, 350, 300); // Text wraps within text box
-        ///image(grey, 300 + margin, 300 + margin / 2, grey.width / 2, grey.height / 2); //grey whale    
+        text(body1, 520 + margin, 450 + margin / 2, 350, 300); // Text wraps within text box
+        image(picsouth, 900 + margin, 475, picsouth.width / 2, picsouth.height / 2); //grey whale    
 
         pop();
       }
